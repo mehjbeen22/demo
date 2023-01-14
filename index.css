@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    height: 90px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    position: sticky;
+    top: 0;
+}
+.navbar > ul{
+    list-style: none;
+    display: flex;
+    /* border: 2px solid red; */
+    width: 45%;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: 600;
+
+
+}
+.navbar >ul>button{
+    height: 50px;
+    width: 100px;
+    border-radius: 30px;
+    font-size: 18px;
+    background-color: rgb(123, 215, 232);
+
+
+}
+.container{
+    height: 600px;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.item{
+    height: 450px;
+    width: 40%;
+    border: 2px solid red;
+    margin: 4px;
+    background: url("https://www.thisiscolossal.com/wp-content/uploads/2019/02/moon_crop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
